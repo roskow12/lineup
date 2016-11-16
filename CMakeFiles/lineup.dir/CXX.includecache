@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rick/Repos/lineup/src/main.cpp
+algorithm
+-
+iostream
+-
+fstream
+-
+vector
+-
+cstdint
+-
+array
+-
+chrono
+-
+stdlib.h
+-
+
